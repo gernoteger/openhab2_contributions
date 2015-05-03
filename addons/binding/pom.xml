@@ -25,6 +25,8 @@
     <module>org.openhab.binding.sonos</module>
     <module>org.openhab.binding.autelis</module>
 	<module>org.openhab.binding.ipp</module>
+    <module>org.openhab.binding.mytestbinding</module>
+    <module>org.openhab.binding.mytestbinding.test</module>
   </modules>
 
 </project>
