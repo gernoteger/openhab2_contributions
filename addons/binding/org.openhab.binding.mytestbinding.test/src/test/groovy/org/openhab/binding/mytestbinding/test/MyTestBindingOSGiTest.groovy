@@ -28,10 +28,10 @@ import org.openhab.binding.mytestbinding.handler.MyTestBindingHandler
 
 
 /**
- * Tests for {@link MaxCubeBridgeHandler}.
+ * Tests for {@link MyTestBindingHandler}.
  *
- * @author Marcel Verpaalen - Initial version
- * @since 2.0
+ * @author Gernot Eger - Initial contribution
+ * @since 2.0.0
  */
 class MyTestBindingOSGiTest extends OSGiTest {
 
@@ -50,10 +50,8 @@ class MyTestBindingOSGiTest extends OSGiTest {
 
 	@Test
 	void "creation of a MyTestBindingHandler"() {
-
 		MyTestBindingHandler handler = getService(ThingHandler,MyTestBindingHandler)
 		assertThat handler, is(nullValue())
-
 	}
 
 }
