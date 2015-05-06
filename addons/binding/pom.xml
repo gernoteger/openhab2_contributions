@@ -25,6 +25,10 @@
     <module>org.openhab.binding.sonos</module>
     <module>org.openhab.binding.autelis</module>
 	<module>org.openhab.binding.ipp</module>
+    <module>org.openhab.binding.cul</module>
+    <module>org.openhab.binding.cul.test</module>
+    <module>org.openhab.binding.fs20</module>
+    <module>org.openhab.binding.fs20.test</module>
   </modules>
 
 </project>
