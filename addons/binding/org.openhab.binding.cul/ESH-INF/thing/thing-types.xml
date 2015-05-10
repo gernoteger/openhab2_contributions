@@ -13,11 +13,12 @@
             <channel id="channel1" typeId="sample-channel"/>
             <channel id="happy" typeId="sample-channel"/>
         </channels>
-        
-        <properties>
-             <property name="sampleValue">Sample Property)</property>
-        </properties>
-        
+        <config-description>
+       	 	<parameter name="sampleText" type="text" required="true">
+				<label>Some text</label>
+				<description>The Serial Number identifies one specific device.</description>
+			</parameter>
+	    </config-description>
     </thing-type>
 
     <!-- Sample Channel Type -->

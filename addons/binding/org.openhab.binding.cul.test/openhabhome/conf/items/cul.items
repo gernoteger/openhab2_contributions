@@ -1,3 +1,6 @@
 
 /* CUL Items */
-Switch cul_test1  { channel="cul:sample:sample1:happy" }
+
+Group cul "CUL Items"
+
+Switch cul_test1 (cul) { channel="cul:sample:sample1:happy" }

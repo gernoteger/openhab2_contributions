@@ -1,1 +1,2 @@
-cul:sample:sample1 [ sampleValue="me!" ]
+// some things
+cul:sample:sample1 [ sampleText="me!" ]
