@@ -1,0 +1,6 @@
+sitemap default label="Main Menu - CUL -default"
+{
+	Frame {
+		Switch item=cul_test1
+	}
+}

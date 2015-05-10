@@ -1,0 +1,3 @@
+
+/* CUL Items */
+Switch cul_test1  { channel="cul:sample:sample1:happy" }

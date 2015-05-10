@@ -8,10 +8,16 @@
     <thing-type id="sample">
         <label>Cul Binding Thing</label>
         <description>Sample thing for Cul Binding</description>
-
+       
         <channels>
             <channel id="channel1" typeId="sample-channel"/>
+            <channel id="happy" typeId="sample-channel"/>
         </channels>
+        
+        <properties>
+             <property name="sampleValue">Sample Property)</property>
+        </properties>
+        
     </thing-type>
 
     <!-- Sample Channel Type -->
@@ -19,6 +25,12 @@
         <item-type>culItem</item-type>
         <label>Cul Binding Channel</label>
         <description>Sample channel for Cul Binding</description>
+    </channel-type>
+
+    <channel-type id="sample-switch">
+        <item-type>Switch</item-type>
+        <label>Cul Binding Sample Switch Channel</label>
+        <description>Sample Switch channel for Cul Binding</description>
     </channel-type>
 
 </thing:thing-descriptions>
