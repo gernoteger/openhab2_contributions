@@ -11,7 +11,7 @@
        
         <channels>
             <channel id="channel1" typeId="sample-channel"/>
-            <channel id="happy" typeId="sample-channel"/>
+           	<channel id="happy" typeId="sample-channel"/>
         </channels>
         <config-description>
        	 	<parameter name="sampleText" type="text" required="true">
